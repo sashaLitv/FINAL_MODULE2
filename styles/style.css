@@ -5,10 +5,10 @@
 @import url("footer.css");
 
 @media (max-width: 767px) {
-    .navigation img {
+    header .navigation img {
         display: none;
     }
-    .navigation{
+    header .navigation{
         margin-top: 70px;
     }
 
@@ -45,5 +45,10 @@
     footer .col-md-2:hover .img-fluid {
         transform: scale(1.1);
         transition: transform 0.3s ease-in-out;
+    }
+}
+@media (max-width: 425px) {
+    header .navigation{
+        margin-top: 30px;
     }
 }
